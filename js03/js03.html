@@ -8,8 +8,10 @@
 </head>
 <body>
     <h1>Sesion JS03</h1>
-    <label for="temperatura">Escribe tu temperatura deseada</label>
-    <input id="temperatura" type="number" min="-5" max="40">
+    <label for="mes">Ingresa un número de mes (1-12):</label> <br>
+    <input type="number" id="mes" name="mes" min="1" max="12" required> <br>
+    <button id="calcular">Calcular estación del a;o</button>
+    <p id="resultado"></p>
 
     <script src="./js03.js"></script>
 </body>
